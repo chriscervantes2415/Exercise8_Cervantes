@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample 1</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #header{
+            width: 100%;
+            background-image: url("IMG/bg.jpg");
+            height: 200vh;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        #header h1{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            font-size: 30px;
+            transition: 0.5s;
+            letter-spacing: 10px;
+        }
+        #header button, .element2 button{
+            background: none;
+            border: none;
+            text-transform: uppercase;
+            border: outset rgb(163, 41, 108) 5px;
+            padding: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: black;
+            margin-bottom: 0;
+        }
+        #content h1{
+            font-family: "MS Outlook";
+            margin: 0;
+        }
+        #content{
+            width: 100%;
+            margin: auto;
+        }
+        .row{
+            display: inline-block; 
+        }
+        #contentt h1{
+            margin: auto;
+        }
+        #contentt{
+            background-color: rgb(94, 79, 79);
+            background-image: url("IMG/wallhaven-rdpgxj.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .element1{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .element2{
+            width: 50%;
+            float: left;
+        }
+        #cc{
+            text-indent: 405px;
+            margin-bottom: 0;
+        }
+        .element1 img {
+            border: outset rgb(163, 41, 108) 20px;
+        }
+        .element4-container {
+            display: flex; /* Added this line */
+        }
+        .element4{
+            width: calc(25% - 20px);
+            background-color: red; 
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .element4 img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <br><br><br><br><br><br><br><br><br><br>
+        <img src="IMG/kg.png" width="300" >
+        <h1 style="color: goldenrod;">Sample</h1>
+        <button style="color: goldenrod;">Click Here</button>
+    </div>
+    
+    <div id="contentt">
+        <div id="content">
+            <br><br>
+            <h1 id="cc" style="color: rgb(2, 2, 2);">CcontentC</h1>
+            <br>
+            <div class="row">
+                <div class="element1">
+                    <img src="IMG/rick-roll-rick-rolled.gif" alt=""  width="80%">
+                </div>
+                <div class="element2">
+                    <h1 style="color: rgb(0, 0, 0); text-indent: 70px;">Ccontent Iitem #1</h1>
+                    <br>
+                    <p style="margin: auto; color: rgb(0, 0, 0); text-indent: 5%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste molestiae culpa saepe minima minus sed ex totam! Odit quas perspiciatis obcaecati velit. Quia id deleniti accusamus, possimus eveniet aliquam hic!Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam tempore a aut sunt voluptatibus eveniet, magnam mollitia quis architecto culpa nobis fugiat quae perferendis, illum, dicta animi odit. Reprehenderit?</p>
+                    <br>
+                    <button style="color: goldenrod;">Learn More</button>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <br>
+            <h1 style="color: white;">Collections</h1>
+            <br>
+            <div class="element4-container"> <!-- Modified this line -->
+                <div class="element4">
+                    <div class="element-4-content"></div>
+                    <img src="IMG/food1.jpg" alt="">
+                </div>
+                <div class="element4">
+                    <div class="element-4-content"></div>
+                    <img src="IMG/food1.jpg" alt="">
+                </div>
+                <div class="element4">
+                    <div class="element-4-content"></div>
+                    <img src="IMG/food1.jpg" alt="">
+                </div>
+                <div class="element4">
+                    <div class="element-4-content"></div>
+                    <img src="IMG/food1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
